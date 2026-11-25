@@ -1,0 +1,1 @@
+"""FitShot MVP backend."""

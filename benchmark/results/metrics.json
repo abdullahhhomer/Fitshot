@@ -1,0 +1,471 @@
+{
+  "_sleeves": {
+    "garment_stripe_tee_flatlay": "short",
+    "garment_navy_tee_flatlay": "short",
+    "garment_navy_tee_model_worn": "short",
+    "garment_red_polka_dress_flatlay": "none",
+    "garment_olive_jacket_flatlay": "long"
+  },
+  "1_full_flatlay_tee": {
+    "fashn": {
+      "ok": true,
+      "seconds": 80.5,
+      "gpu_peak_mib": 5646,
+      "model": "FASHN VTON 1.5 (flat-lay) on this PC",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 4.99
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.966
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.998
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.84
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.076
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 109.8,
+      "gpu_peak_mib": 7067,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 6.84
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.954
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.998
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.38
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.058
+        }
+      }
+    }
+  },
+  "2_half_flatlay_tee": {
+    "fashn": {
+      "ok": true,
+      "seconds": 59.6,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (flat-lay) on this PC",
+      "output_size": [
+        896,
+        645
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 1.14
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.73
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.995
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.87
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.128
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 101.8,
+      "gpu_peak_mib": 7176,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        645
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 4.97
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.836
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.998
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.58
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.172
+        }
+      }
+    }
+  },
+  "3_full_modelworn_tee": {
+    "fashn": {
+      "ok": true,
+      "seconds": 60.1,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (model) on this PC",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 7.46
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.618
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.994
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.36
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.075
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 47.1,
+      "gpu_peak_mib": 3789,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "review",
+          "score": 14.42
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.68
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.994
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 1.06
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.05
+        }
+      }
+    }
+  },
+  "4_half_modelworn_tee": {
+    "fashn": {
+      "ok": true,
+      "seconds": 59.5,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (model) on this PC",
+      "output_size": [
+        896,
+        645
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 7.14
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.618
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.998
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.95
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.154
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 45.9,
+      "gpu_peak_mib": 4341,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        645
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 8.46
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.655
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.997
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.58
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.154
+        }
+      }
+    }
+  },
+  "5_full_trousers": {
+    "fashn": {
+      "ok": true,
+      "seconds": 58.8,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (flat-lay) on this PC",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 3.28
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.969
+        },
+        "identity": {
+          "status": "pass",
+          "score": 1.0
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.95
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.068
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 45.5,
+      "gpu_peak_mib": 4341,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 4.24
+        },
+        "garment_pattern": {
+          "status": "review",
+          "score": 0.715
+        },
+        "identity": {
+          "status": "pass",
+          "score": 1.0
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.95
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.075
+        }
+      }
+    }
+  },
+  "6_full_dress": {
+    "fashn": {
+      "ok": true,
+      "seconds": 59.0,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (flat-lay) on this PC",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 5.4
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.99
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.997
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 6.1
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.184
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 102.4,
+      "gpu_peak_mib": 7067,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "fail",
+          "score": 15.14
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.732
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.997
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 1.43
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.175
+        }
+      }
+    }
+  },
+  "7_pose_jacket": {
+    "fashn": {
+      "ok": true,
+      "seconds": 59.0,
+      "gpu_peak_mib": 4118,
+      "model": "FASHN VTON 1.5 (flat-lay) on this PC",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 2.3
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.87
+        },
+        "identity": {
+          "status": "pass",
+          "score": 0.989
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.89
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.095
+        }
+      }
+    },
+    "catvton": {
+      "ok": true,
+      "seconds": 45.9,
+      "gpu_peak_mib": 4341,
+      "model": "CatVTON mix-48k-1024",
+      "output_size": [
+        896,
+        1152
+      ],
+      "checks": {
+        "garment_color": {
+          "status": "pass",
+          "score": 8.77
+        },
+        "garment_pattern": {
+          "status": "pass",
+          "score": 0.769
+        },
+        "identity": {
+          "status": "pass",
+          "score": 1.0
+        },
+        "skin_tone": {
+          "status": "pass",
+          "score": 0.61
+        },
+        "body_pose": {
+          "status": "pass",
+          "score": 0.069
+        }
+      }
+    }
+  }
+}

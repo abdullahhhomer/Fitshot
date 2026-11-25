@@ -1,0 +1,32 @@
+[project]
+name = "fitshot-backend"
+version = "0.1.0"
+description = "FitShot MVP: verified AI product photoshoots"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "pydantic-settings>=2.4",
+    "google-genai>=1.0",
+    "httpx>=0.27",
+    "websockets>=12",
+    "pillow>=10.4",
+    "numpy>=1.26",
+    "scikit-image>=0.24",
+    "onnxruntime>=1.19",
+    "insightface>=0.7.3",
+    "mediapipe>=0.10.14",
+    "rembg>=2.0.59",
+    "gradio-client>=2.7.2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

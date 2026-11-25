@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Runtime data and downloaded models
+/data/
+/models/
+/comfyui/
+/catvton/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local FASHN VTON 1.5: source checkout, weights and model cache (scripts/setup_fashn.sh)
+/fashn/
+
+# Local tool settings
+.claude/settings.local.json

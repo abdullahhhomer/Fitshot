@@ -1,0 +1,1116 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T12:27:57+00:00",
+  "title": "Design System: FitShot",
+  "extensions": {
+    "colorMeta": {
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Rail Cobalt",
+        "canonical": "#2b35f5",
+        "oklch": "oklch(48.5% 0.272 268.6)",
+        "tonalRamp": [
+          "#050a1c",
+          "#0d0f6e",
+          "#1c19b9",
+          "#2d3bf5",
+          "#5073fc",
+          "#81a0fb",
+          "#b3c8fe",
+          "#e8eeff"
+        ],
+        "cssVar": "--cobalt"
+      },
+      "cobalt-deep": {
+        "role": "primary",
+        "displayName": "Pressed Cobalt",
+        "canonical": "#1b23c4",
+        "oklch": "oklch(40.2% 0.236 267.7)",
+        "tonalRamp": [
+          "#050a1a",
+          "#0c1764",
+          "#192aa9",
+          "#2c49e2",
+          "#4d74fd",
+          "#7fa0fc",
+          "#b2c8fe",
+          "#e8eeff"
+        ],
+        "cssVar": "--cobalt-deep"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Focus Accent (light)",
+        "canonical": "#2b35f5",
+        "oklch": "oklch(48.5% 0.272 268.6)",
+        "tonalRamp": [
+          "#050a1c",
+          "#0d0f6e",
+          "#1c19b9",
+          "#2d3bf5",
+          "#5073fc",
+          "#81a0fb",
+          "#b3c8fe",
+          "#e8eeff"
+        ],
+        "cssVar": "--accent"
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Focus Accent (dark)",
+        "canonical": "#c8ff2e",
+        "oklch": "oklch(92.9% 0.221 124.4)",
+        "tonalRamp": [
+          "#080d01",
+          "#1e2a01",
+          "#384a05",
+          "#536c0d",
+          "#709016",
+          "#8db60d",
+          "#b7d77a",
+          "#e9f3db"
+        ],
+        "cssVar": "--accent",
+        "theme": "dark"
+      },
+      "volt": {
+        "role": "primary",
+        "displayName": "Volt",
+        "canonical": "#c8ff2e",
+        "oklch": "oklch(92.9% 0.221 124.4)",
+        "tonalRamp": [
+          "#080d01",
+          "#1e2a01",
+          "#384a05",
+          "#536c0d",
+          "#709016",
+          "#8db60d",
+          "#b7d77a",
+          "#e9f3db"
+        ],
+        "cssVar": "--volt"
+      },
+      "volt-deep": {
+        "role": "primary",
+        "displayName": "Pressed Volt",
+        "canonical": "#b2ec0f",
+        "oklch": "oklch(87.1% 0.219 125.7)",
+        "tonalRamp": [
+          "#080d01",
+          "#1d2a00",
+          "#364a02",
+          "#506d06",
+          "#6d910d",
+          "#8bb71c",
+          "#b6d87c",
+          "#e9f3db"
+        ],
+        "cssVar": "--volt-deep"
+      },
+      "on-volt": {
+        "role": "primary",
+        "displayName": "On Volt",
+        "canonical": "#0e0e10",
+        "oklch": "oklch(16.5% 0.004 285.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--on-volt"
+      },
+      "on-cobalt": {
+        "role": "primary",
+        "displayName": "On Cobalt",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "cssVar": null
+      },
+      "card": {
+        "role": "secondary",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "cssVar": "--card"
+      },
+      "card-ink": {
+        "role": "secondary",
+        "displayName": "Card Ink",
+        "canonical": "#0e0e10",
+        "oklch": "oklch(16.5% 0.004 285.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--card-ink"
+      },
+      "card-soft": {
+        "role": "secondary",
+        "displayName": "Card Soft",
+        "canonical": "#4d4d57",
+        "oklch": "oklch(42.4% 0.016 285.7)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242429",
+          "#414149",
+          "#60606a",
+          "#81818c",
+          "#a4a4ae",
+          "#c8c8cf",
+          "#eeeef0"
+        ],
+        "cssVar": "--card-soft"
+      },
+      "card-line": {
+        "role": "secondary",
+        "displayName": "Card Rule",
+        "canonical": "#e2e2e6",
+        "oklch": "oklch(91.4% 0.005 286.3)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616164",
+          "#828285",
+          "#a5a5a8",
+          "#c9c9cb",
+          "#eeeeef"
+        ],
+        "cssVar": "--card-line"
+      },
+      "stamp-pass": {
+        "role": "secondary",
+        "displayName": "Stamp Green",
+        "canonical": "#0f5438",
+        "oklch": "oklch(39.7% 0.082 160.8)",
+        "tonalRamp": [
+          "#070d09",
+          "#0d2c1e",
+          "#194d36",
+          "#326f52",
+          "#549172",
+          "#7eb397",
+          "#b0d3bf",
+          "#e8f1ec"
+        ],
+        "cssVar": "--stamp-pass"
+      },
+      "stamp-fail": {
+        "role": "secondary",
+        "displayName": "Stamp Red",
+        "canonical": "#8f1d17",
+        "oklch": "oklch(42.6% 0.150 28.5)",
+        "tonalRamp": [
+          "#140806",
+          "#460e0a",
+          "#771c16",
+          "#a5362c",
+          "#cc5a4d",
+          "#ea8477",
+          "#fcb5aa",
+          "#fde9e6"
+        ],
+        "cssVar": "--stamp-fail"
+      },
+      "stamp-check": {
+        "role": "secondary",
+        "displayName": "Stamp Amber",
+        "canonical": "#8a5600",
+        "oklch": "oklch(50.0% 0.109 69.6)",
+        "tonalRamp": [
+          "#100a05",
+          "#361f01",
+          "#5c3906",
+          "#875401",
+          "#ab7632",
+          "#ca9b64",
+          "#e4c39e",
+          "#f6ede3"
+        ],
+        "cssVar": "--stamp-check"
+      },
+      "card-error": {
+        "role": "secondary",
+        "displayName": "Card Error Ground",
+        "canonical": "#fff5f4",
+        "oklch": "oklch(97.8% 0.011 24.3)",
+        "tonalRamp": [
+          "#0c0b0b",
+          "#282424",
+          "#474040",
+          "#675f5e",
+          "#89807f",
+          "#aba3a2",
+          "#cdc8c7",
+          "#efeeee"
+        ],
+        "cssVar": "--card-error"
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "Field Edge",
+        "canonical": "#8f8f99",
+        "oklch": "oklch(65.3% 0.015 286.0)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252529",
+          "#414148",
+          "#606069",
+          "#81818b",
+          "#a4a4ad",
+          "#c8c8ce",
+          "#eeeef0"
+        ],
+        "cssVar": "--field-line"
+      },
+      "field-line-dark": {
+        "role": "neutral",
+        "displayName": "Field Edge (dark)",
+        "canonical": "#6b6b78",
+        "oklch": "oklch(53.2% 0.020 285.7)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#24242b",
+          "#41414b",
+          "#60606c",
+          "#81818e",
+          "#a4a4b0",
+          "#c8c8d0",
+          "#eeeef0"
+        ],
+        "cssVar": "--field-line",
+        "theme": "dark"
+      },
+      "mat": {
+        "role": "secondary",
+        "displayName": "Photo Mat",
+        "canonical": "#e6e6e4",
+        "oklch": "oklch(92.4% 0.003 106.5)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#eeeeee"
+        ],
+        "cssVar": "--mat"
+      },
+      "pass": {
+        "role": "tertiary",
+        "displayName": "Pass Green",
+        "canonical": "#176b49",
+        "oklch": "oklch(47.0% 0.096 161.0)",
+        "tonalRamp": [
+          "#060d09",
+          "#052d1c",
+          "#074f34",
+          "#237150",
+          "#489470",
+          "#76b595",
+          "#abd5be",
+          "#e7f2eb"
+        ],
+        "cssVar": "--pass"
+      },
+      "check": {
+        "role": "tertiary",
+        "displayName": "Check Amber",
+        "canonical": "#8a5600",
+        "oklch": "oklch(50.0% 0.109 69.6)",
+        "tonalRamp": [
+          "#100a05",
+          "#361f01",
+          "#5c3906",
+          "#875401",
+          "#ab7632",
+          "#ca9b64",
+          "#e4c39e",
+          "#f6ede3"
+        ],
+        "cssVar": "--check"
+      },
+      "fail": {
+        "role": "tertiary",
+        "displayName": "Fail Red",
+        "canonical": "#b3261e",
+        "oklch": "oklch(50.1% 0.178 28.7)",
+        "tonalRamp": [
+          "#150705",
+          "#4b0503",
+          "#7f0606",
+          "#af251d",
+          "#d74d40",
+          "#f57c6d",
+          "#fdb4a9",
+          "#fee9e5"
+        ],
+        "cssVar": "--fail"
+      },
+      "pass-dark": {
+        "role": "tertiary",
+        "displayName": "Pass Green (dark)",
+        "canonical": "#63cda2",
+        "oklch": "oklch(77.3% 0.118 164.6)",
+        "tonalRamp": [
+          "#050e09",
+          "#022d1e",
+          "#074e37",
+          "#117252",
+          "#289870",
+          "#64b995",
+          "#a1d7be",
+          "#e4f2eb"
+        ],
+        "cssVar": "--pass",
+        "theme": "dark"
+      },
+      "check-dark": {
+        "role": "tertiary",
+        "displayName": "Check Amber (dark)",
+        "canonical": "#f0b860",
+        "oklch": "oklch(81.7% 0.124 76.8)",
+        "tonalRamp": [
+          "#100a04",
+          "#342101",
+          "#593c04",
+          "#80580b",
+          "#ab7714",
+          "#ca9c55",
+          "#e3c496",
+          "#f6ede1"
+        ],
+        "cssVar": "--check",
+        "theme": "dark"
+      },
+      "fail-dark": {
+        "role": "tertiary",
+        "displayName": "Fail Red (dark)",
+        "canonical": "#ff9288",
+        "oklch": "oklch(77.3% 0.133 26.1)",
+        "tonalRamp": [
+          "#130807",
+          "#431210",
+          "#722320",
+          "#9e3d38",
+          "#c45f58",
+          "#e38880",
+          "#f7b7b0",
+          "#fceae7"
+        ],
+        "cssVar": "--fail",
+        "theme": "dark"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "cssVar": "--paper"
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Paper Two",
+        "canonical": "#f1f1ef",
+        "oklch": "oklch(95.8% 0.003 106.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#eeeeee"
+        ],
+        "cssVar": "--paper-2"
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field",
+        "canonical": "#f7f7f5",
+        "oklch": "oklch(97.6% 0.003 106.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#eeeeee"
+        ],
+        "cssVar": "--field"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e0e0e3",
+        "oklch": "oklch(90.8% 0.004 286.3)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--line"
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#b9b9c1",
+        "oklch": "oklch(78.8% 0.011 286.1)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252528",
+          "#414147",
+          "#606067",
+          "#818189",
+          "#a4a4ab",
+          "#c8c9cd",
+          "#eeeeef"
+        ],
+        "cssVar": "--line-strong"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0e0e10",
+        "oklch": "oklch(16.5% 0.004 285.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--ink"
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#5c5c66",
+        "oklch": "oklch(47.8% 0.016 285.8)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242429",
+          "#414149",
+          "#60606a",
+          "#81818c",
+          "#a4a4ad",
+          "#c8c8cf",
+          "#eeeef0"
+        ],
+        "cssVar": "--muted"
+      },
+      "action": {
+        "role": "neutral",
+        "displayName": "Action",
+        "canonical": "#0e0e10",
+        "oklch": "oklch(16.5% 0.004 285.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--action"
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Action Ink",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "cssVar": "--action-ink"
+      },
+      "paper-dark": {
+        "role": "neutral",
+        "displayName": "Paper (dark)",
+        "canonical": "#0d0d10",
+        "oklch": "oklch(16.0% 0.006 285.7)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252527",
+          "#424245",
+          "#616165",
+          "#828286",
+          "#a4a5a8",
+          "#c9c9cb",
+          "#eeeeef"
+        ],
+        "cssVar": "--paper",
+        "theme": "dark"
+      },
+      "paper-2-dark": {
+        "role": "neutral",
+        "displayName": "Paper Two (dark)",
+        "canonical": "#17171b",
+        "oklch": "oklch(20.6% 0.008 285.7)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#414145",
+          "#616166",
+          "#828287",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeeef"
+        ],
+        "cssVar": "--paper-2",
+        "theme": "dark"
+      },
+      "field-dark": {
+        "role": "neutral",
+        "displayName": "Field (dark)",
+        "canonical": "#121216",
+        "oklch": "oklch(18.4% 0.008 285.6)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#414146",
+          "#616166",
+          "#828287",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeeef"
+        ],
+        "cssVar": "--field",
+        "theme": "dark"
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "canonical": "#2b2b32",
+        "oklch": "oklch(29.2% 0.013 285.6)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252528",
+          "#414148",
+          "#606068",
+          "#81818a",
+          "#a4a4ac",
+          "#c8c8ce",
+          "#eeeef0"
+        ],
+        "cssVar": "--line",
+        "theme": "dark"
+      },
+      "line-strong-dark": {
+        "role": "neutral",
+        "displayName": "Strong Hairline (dark)",
+        "canonical": "#4a4a55",
+        "oklch": "oklch(41.3% 0.018 285.6)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#24242a",
+          "#41414a",
+          "#60606b",
+          "#81818d",
+          "#a4a4af",
+          "#c8c8d0",
+          "#eeeef0"
+        ],
+        "cssVar": "--line-strong",
+        "theme": "dark"
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink (dark)",
+        "canonical": "#f4f4f6",
+        "oklch": "oklch(96.8% 0.003 286.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--ink",
+        "theme": "dark"
+      },
+      "muted-dark": {
+        "role": "neutral",
+        "displayName": "Muted (dark)",
+        "canonical": "#a3a3af",
+        "oklch": "oklch(71.9% 0.017 286.0)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#24242a",
+          "#41414a",
+          "#60606b",
+          "#81818c",
+          "#a4a4ae",
+          "#c8c8cf",
+          "#eeeef0"
+        ],
+        "cssVar": "--muted",
+        "theme": "dark"
+      },
+      "action-dark": {
+        "role": "neutral",
+        "displayName": "Action (dark)",
+        "canonical": "#f4f4f6",
+        "oklch": "oklch(96.8% 0.003 286.4)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--action",
+        "theme": "dark"
+      },
+      "action-ink-dark": {
+        "role": "neutral",
+        "displayName": "Action Ink (dark)",
+        "canonical": "#0e0e10",
+        "oklch": "oklch(16.5% 0.004 285.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252526",
+          "#424244",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "cssVar": "--action-ink",
+        "theme": "dark"
+      }
+    },
+    "typographyMeta": {
+      "masthead": {
+        "displayName": "Masthead",
+        "purpose": "FITSHOT wordmark on the cobalt rail. Uppercase; set with font-stretch 150%."
+      },
+      "card-masthead": {
+        "displayName": "Card Masthead",
+        "purpose": "INSPECTION on the card's cobalt head. Uppercase."
+      },
+      "display": {
+        "displayName": "Cover Line",
+        "purpose": "The page title, one per page, sentence case, balanced wrap."
+      },
+      "figure": {
+        "displayName": "Cost Figure",
+        "purpose": "The four cost-line numbers, tabular."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Empty-state headlines; model name at 1.75rem."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Section heads such as 'By garment'."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Muted sentence under a page title; photo name on the card."
+      },
+      "summary": {
+        "displayName": "Verdict Summary",
+        "purpose": "Plain-language verdict sentence on the Inspection card."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base working text."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Rail links; weight 720 when current."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Button labels."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and table headers, sentence case."
+      },
+      "status": {
+        "displayName": "Status",
+        "purpose": "Status pill words."
+      },
+      "burst": {
+        "displayName": "Burst Word",
+        "purpose": "The word inside a cover burst. Uppercase, +0.04em."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 30px 50px -34px rgb(14 14 16 / 0.45)",
+        "purpose": "The Inspection card only; a print resting on the desk."
+      },
+      {
+        "name": "logo-mark-ring",
+        "value": "0 0 0 1.5px #fff, inset 0 0 0 1.5px #fff",
+        "purpose": "White halo around the 2px cobalt logo-marking box."
+      },
+      {
+        "name": "picked-ring",
+        "value": "inset 0 0 0 1.5px var(--accent)",
+        "purpose": "Doubles the accent border on a picked garment."
+      },
+      {
+        "name": "dialog-backdrop",
+        "value": "rgb(14 14 16 / 0.62)",
+        "purpose": "Backdrop behind the Inspection dialog at 1040px and below."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Expo-out curve for the burst, card rise, tile zoom, masthead tracking and row chevron."
+      },
+      {
+        "name": "burst-in",
+        "value": "520ms ease-out; from rotate(-60deg) scale(0.55) to rotate(-8deg) scale(1)",
+        "purpose": "The card stamp slaps on; re-runs whenever the status changes."
+      },
+      {
+        "name": "card-rise",
+        "value": "420ms ease-out; from translateY(10px)",
+        "purpose": "The Inspection card rises into place when a photo opens."
+      },
+      {
+        "name": "tile-zoom",
+        "value": "transform 700ms ease-out; scale(1.035) on hover",
+        "purpose": "A photo leans in on hover (hover-capable pointers only)."
+      },
+      {
+        "name": "look-zoom",
+        "value": "transform 500ms ease-out; scale(1.03) on hover",
+        "purpose": "Fitting room look-card image leans in on hover."
+      },
+      {
+        "name": "masthead-track",
+        "value": "letter-spacing 300ms ease-out; -0.03em to 0.01em",
+        "purpose": "FITSHOT masthead opens on hover."
+      },
+      {
+        "name": "state",
+        "value": "150ms ease-out",
+        "purpose": "Color, background and border changes on buttons, chips, links, fields and rows."
+      },
+      {
+        "name": "press",
+        "value": "transform 120ms ease-out; translateY(1px)",
+        "purpose": "Buttons drop 1px on active."
+      },
+      {
+        "name": "chevron-nudge",
+        "value": "transform 160ms ease-out; translateX(3px)",
+        "purpose": "Table-row chevron on row hover."
+      },
+      {
+        "name": "progress",
+        "value": "width 250ms ease-out",
+        "purpose": "Photoshoot progress fill."
+      },
+      {
+        "name": "spin",
+        "value": "900ms linear infinite",
+        "purpose": "The Checking status icon."
+      },
+      {
+        "name": "pulse",
+        "value": "1.4s ease-in-out infinite; opacity 0.55 at midpoint",
+        "purpose": "Loading skeleton tiles."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration 1ms, iteration-count 1, transition-duration 1ms",
+        "purpose": "Collapses every animation and transition under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "featured",
+        "value": "min-width: 1280px",
+        "purpose": "First discovery tile spans 2 by 2."
+      },
+      {
+        "name": "xl",
+        "value": "max-width: 1360px",
+        "purpose": "Fitting room columns narrow to 232px catalog and 340px side."
+      },
+      {
+        "name": "lg",
+        "value": "max-width: 1180px",
+        "purpose": "Rail 212px, page gutter 30px, dock 376px; Fitting room catalog becomes a horizontal row above stage and side."
+      },
+      {
+        "name": "md",
+        "value": "max-width: 1040px",
+        "purpose": "Dock removed; Inspection card becomes a modal dialog; Fitting room goes single-column and card actions stop being sticky."
+      },
+      {
+        "name": "sm",
+        "value": "max-width: 760px",
+        "purpose": "Shell stacks; cobalt top bar plus fixed cobalt bottom nav; two-column grids; 16px gutters."
+      },
+      {
+        "name": "floor",
+        "value": "min-width: 320px",
+        "purpose": "Body minimum width."
+      }
+    ],
+    "themes": {
+      "light": "Default; :root[data-theme=light] forces it.",
+      "dark": "prefers-color-scheme: dark unless data-theme=light, or :root[data-theme=dark]. Each *-dark token replaces its base name. Fixed objects (cobalt, cobalt-deep, on-cobalt, mat, the card set and stamp inks) do not change."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one strongest action in a page head or form foot. Ink fill that turns cobalt on hover.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg> New photoshoot</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 18px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-weight: 650; font-size: 0.9375rem; white-space: nowrap; cursor: pointer; border-radius: 2px; transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 120ms ease-out; color: var(--action-ink, #fff); background: var(--action, #0e0e10); border: 1.5px solid var(--action, #0e0e10); } .ds-btn-primary:hover { color: #fff; background: var(--cobalt, #2b35f5); border-color: var(--cobalt, #2b35f5); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Default button: transparent with an ink border; fills with ink on hover.",
+      "html": "<button class=\"ds-btn\">Go to photoshoots</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 18px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-weight: 650; font-size: 0.9375rem; white-space: nowrap; cursor: pointer; border-radius: 2px; transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 120ms ease-out; color: var(--ink, #0e0e10); background: transparent; border: 1.5px solid var(--ink, #0e0e10); } .ds-btn:hover { color: var(--action-ink, #fff); background: var(--action, #0e0e10); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; }"
+    },
+    {
+      "name": "Try It On Button",
+      "kind": "button",
+      "refersTo": "button-try-on",
+      "description": "The Fitting room's committing action: full-width cobalt, 52px, with a help line beneath that keeps the no-fit-prediction note.",
+      "html": "<div class=\"ds-tryon-wrap\"><button class=\"ds-btn-tryon\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3l1.9 5.8L20 10.7l-6.1 1.9L12 18.5l-1.9-5.9L4 10.7l6.1-1.9z\"/></svg> Try it on</button><p class=\"ds-tryon-help\">FitShot shows how the garment looks on your model. It does not predict real size or fit.</p></div>",
+      "css": ".ds-tryon-wrap { display: grid; gap: 14px; max-width: 340px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); } .ds-btn-tryon { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 18px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-weight: 650; font-size: 0.9375rem; white-space: nowrap; cursor: pointer; border-radius: 2px; transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 120ms ease-out; width: 100%; min-height: 52px; font-size: 1rem; color: #fff; background: var(--cobalt, #2b35f5); border: 1.5px solid var(--cobalt, #2b35f5); } .ds-btn-tryon:hover { background: var(--cobalt-deep, #1b23c4); border-color: var(--cobalt-deep, #1b23c4); } .ds-btn-tryon:active { transform: translateY(1px); } .ds-btn-tryon:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; } .ds-btn-tryon:disabled { opacity: 0.4; cursor: not-allowed; } .ds-tryon-help { margin: 0; font-size: 0.75rem; color: var(--muted, #5c5c66); }"
+    },
+    {
+      "name": "Look Card",
+      "kind": "card",
+      "refersTo": "look-tag",
+      "description": "Fitting room catalog entry: a square garment on the mat with a fixed-white look tag carrying a word, and a clamped name.",
+      "html": "<div class=\"ds-look-grid\"><button class=\"ds-look on\" aria-pressed=\"true\"><span class=\"ds-look-tag pass\">Verified</span><span class=\"ds-look-img\"></span><span class=\"ds-look-name\"><b>NVY-001</b> Navy crew tee</span></button><button class=\"ds-look\" aria-pressed=\"false\"><span class=\"ds-look-tag check\">Needs check</span><span class=\"ds-look-img\"></span><span class=\"ds-look-name\"><b>LIN-021</b> Linen camp shirt</span></button></div>",
+      "css": ".ds-look-grid { display: grid; grid-template-columns: repeat(2, 128px); gap: 18px 12px; padding: 4px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); } .ds-look { position: relative; display: grid; gap: 7px; align-content: start; padding: 0; color: var(--ink, #0e0e10); text-align: left; background: transparent; border: 0; border-radius: 2px; cursor: pointer; } .ds-look-img { display: block; aspect-ratio: 1; background: var(--mat, #e6e6e4); border-radius: 2px; transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-look:hover .ds-look-img { transform: scale(1.03); } .ds-look.on .ds-look-img { outline: 3px solid var(--accent, #2b35f5); outline-offset: 3px; } .ds-look:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; } .ds-look-tag { position: absolute; top: 7px; left: 7px; z-index: 1; padding: 1px 7px; font-size: 0.6875rem; font-weight: 720; color: var(--card-soft, #4d4d57); background: #fff; border: 1.5px solid currentColor; border-radius: 2px; } .ds-look-tag.pass { color: var(--stamp-pass, #0f5438); } .ds-look-tag.check { color: #8a5600; } .ds-look-tag.fail { color: var(--stamp-fail, #8f1d17); } .ds-look-name { font-size: 0.8125rem; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Filters, scene tabs and segmented choices. Pressed chips fill with ink, not cobalt.",
+      "html": "<div class=\"ds-tabs\" role=\"group\" aria-label=\"Filter photos\"><button aria-pressed=\"true\">All <span class=\"ds-tab-count\">3</span></button><button aria-pressed=\"false\">Ready <span class=\"ds-tab-count\">2</span></button><button aria-pressed=\"false\">Needs check <span class=\"ds-tab-count\">0</span></button></div>",
+      "css": ".ds-tabs { display: flex; flex-wrap: wrap; gap: 8px; } .ds-tabs button { display: inline-flex; align-items: center; gap: 7px; min-height: 38px; padding: 6px 14px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-size: 0.875rem; font-weight: 650; color: var(--muted, #5c5c66); background: transparent; border: 1.5px solid var(--line, #e0e0e3); border-radius: 2px; cursor: pointer; transition: color 150ms ease-out, border-color 150ms ease-out, background-color 150ms ease-out; } .ds-tabs button[aria-pressed=\"false\"]:hover { color: var(--ink, #0e0e10); border-color: var(--ink, #0e0e10); } .ds-tabs button[aria-pressed=\"true\"] { color: var(--action-ink, #fff); background: var(--action, #0e0e10); border-color: var(--action, #0e0e10); } .ds-tabs button:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; } .ds-tab-count { font-weight: 500; font-variant-numeric: tabular-nums; opacity: 0.8; }"
+    },
+    {
+      "name": "Status Pills",
+      "kind": "chip",
+      "refersTo": "status-pass",
+      "description": "A status is always a word with an icon; the ink only reinforces it.",
+      "html": "<div class=\"ds-status-row\"><span class=\"ds-status pass\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Verified</span><span class=\"ds-status check\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v4M12 16h.01\"/></svg> Needs your check</span><span class=\"ds-status fail\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg> Rejected</span><span class=\"ds-status idle\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg> Queued</span></div>",
+      "css": ".ds-status-row { display: flex; flex-wrap: wrap; gap: 8px; } .ds-status { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px 1px 6px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-size: 0.78rem; font-weight: 680; white-space: nowrap; border: 1.5px solid currentColor; border-radius: 2px; } .ds-status.pass { color: var(--pass, #176b49); } .ds-status.check { color: var(--check, #8a5600); } .ds-status.fail { color: var(--fail, #b3261e); } .ds-status.idle { color: var(--muted, #5c5c66); }"
+    },
+    {
+      "name": "Cobalt Rail",
+      "kind": "nav",
+      "refersTo": "rail",
+      "description": "Full-height cobalt navigation with the expanded FITSHOT masthead; the current page is a white tab. Becomes a cobalt bottom bar at 760px and below.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Main\"><span class=\"ds-masthead\">FitShot</span><a href=\"#\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"5\"/><path d=\"M20 21a8 8 0 0 0-16 0\"/></svg><span>Brand models</span></a><a href=\"#\" aria-current=\"page\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z\"/><circle cx=\"12\" cy=\"13\" r=\"3\"/></svg><span>Photoshoots</span></a><a href=\"#\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"8\" y=\"2\" width=\"8\" height=\"4\" rx=\"1\"/><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/><path d=\"m9 14 2 2 4-4\"/></svg><span>Review</span><span class=\"ds-count\">2</span></a></nav>",
+      "css": ".ds-rail { display: flex; flex-direction: column; gap: 2px; width: 240px; padding: 26px 16px 18px; color: #fff; background: var(--cobalt, #2b35f5); font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); } .ds-masthead { display: block; margin: 0 8px 28px; font-family: var(--display, \"Anybody Variable\", \"Arial Black\", sans-serif); font-size: 1.75rem; font-weight: 900; font-stretch: 150%; line-height: 0.9; letter-spacing: -0.03em; text-transform: uppercase; transition: letter-spacing 300ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-masthead:hover { letter-spacing: 0.01em; } .ds-rail a { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 9px 12px; color: rgb(255 255 255 / 0.8); font-weight: 560; text-decoration: none; border-radius: 2px; transition: color 150ms ease-out, background-color 150ms ease-out; } .ds-rail a:hover { color: #fff; background: rgb(255 255 255 / 0.12); } .ds-rail a[aria-current=\"page\"] { color: var(--cobalt, #2b35f5); font-weight: 720; background: #fff; } .ds-rail a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; } .ds-count { margin-left: auto; min-width: 24px; height: 24px; padding: 0 7px; display: inline-grid; place-items: center; font-size: 0.78rem; font-weight: 800; color: var(--cobalt, #2b35f5); background: #fff; border-radius: 999px; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Field and Select",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label above a 44px field-tone control with 2px corners; focus turns the border accent.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Scene</span><select class=\"ds-select\"><option>Studio</option><option>Street</option><option>Beach</option></select><span class=\"ds-field-help\">2 approved shots</span></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; max-width: 260px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); } .ds-field-label { font-size: 0.8125rem; font-weight: 700; color: var(--ink, #0e0e10); } .ds-field-help { font-size: 0.75rem; color: var(--muted, #5c5c66); } .ds-select { width: 100%; min-height: 44px; padding: 8px 38px 8px 12px; font: inherit; color: var(--ink, #0e0e10); appearance: none; background: var(--field, #f7f7f5) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238a8a95' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E\") no-repeat right 13px center; border: 1.5px solid var(--line, #e0e0e3); border-radius: 2px; transition: border-color 150ms ease-out; } .ds-select:hover { border-color: var(--line-strong, #b9b9c1); } .ds-select:focus-visible { border-color: var(--accent, #2b35f5); outline: 2px solid var(--accent, #2b35f5); outline-offset: 2px; }"
+    },
+    {
+      "name": "Inspection Card",
+      "kind": "card",
+      "refersTo": "inspection-card",
+      "description": "The signature object: a white card with a cobalt masthead, a cover-burst status sticker, ruled check rows with result words, cobalt Approve and the standing provisional-limits disclosure. Identical in both themes.",
+      "html": "<section class=\"ds-card\" aria-label=\"Inspection for LIN-021\"><div class=\"ds-card-head\"><h2>Inspection</h2></div><div class=\"ds-card-cover\"><p><b>LIN-021</b> Front</p><span class=\"ds-burst warn ds-stamp\"><svg viewBox=\"0 0 100 100\" aria-hidden=\"true\"><polygon points=\"50.00,0.00 57.29,8.64 67.10,3.02 71.00,13.63 82.14,11.70 82.17,23.00 93.30,25.00 89.47,35.64 99.24,41.32 92.00,50.00 99.24,58.68 89.47,64.36 93.30,75.00 82.17,77.00 82.14,88.30 71.00,86.37 67.10,96.98 57.29,91.36 50.00,100.00 42.71,91.36 32.90,96.98 29.00,86.37 17.86,88.30 17.83,77.00 6.70,75.00 10.53,64.36 0.76,58.68 8.00,50.00 0.76,41.32 10.53,35.64 6.70,25.00 17.83,23.00 17.86,11.70 29.00,13.63 32.90,3.02 42.71,8.64\"/></svg><span class=\"ds-burst-word\">Needs your check</span></span></div><p class=\"ds-card-summary\">The logo may have changed. Check it before publishing.</p><ul class=\"ds-rows\"><li class=\"pass\"><button aria-expanded=\"false\"><span>Garment color</span><span class=\"ds-word\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Pass</span><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></li><li class=\"review\"><button aria-expanded=\"false\"><span>Logo</span><span class=\"ds-word\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v4M12 16h.01\"/></svg> Check</span><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></li><li class=\"fail\"><button aria-expanded=\"false\"><span>Structure</span><span class=\"ds-word\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 6 6 18M6 6l12 12\"/></svg> Fail</span><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></li></ul><div class=\"ds-card-actions\"><button class=\"ds-approve\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Approve photo</button><button class=\"ds-card-outline\">Reject</button></div><p class=\"ds-card-foot\">2 attempts, $0.101. Check limits are still being tuned, so use your own eye too.</p></section>",
+      "css": ".ds-burst { position: relative; display: inline-grid; place-items: center; flex: none; width: 92px; aspect-ratio: 1; --b-fill: var(--card-ink, #0e0e10); --b-ink: #fff; } .ds-burst svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; } .ds-burst polygon { fill: var(--b-fill); } .ds-burst-word { position: relative; max-width: 70%; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-size: 0.6875rem; font-weight: 800; line-height: 1.08; letter-spacing: 0.04em; text-align: center; text-transform: uppercase; color: var(--b-ink); } .ds-burst.good { --b-fill: var(--stamp-pass, #0f5438); } .ds-burst.bad { --b-fill: var(--stamp-fail, #8f1d17); } .ds-burst.warn { --b-fill: var(--card-ink, #0e0e10); } .ds-burst.idle { --b-fill: #fff; --b-ink: var(--card-ink, #0e0e10); } .ds-burst.idle polygon { stroke: var(--card-ink, #0e0e10); stroke-width: 2.5; } .ds-burst.cobalt { --b-fill: var(--cobalt, #2b35f5); } @keyframes ds-burst-in { from { transform: rotate(-60deg) scale(0.55); } to { transform: rotate(-8deg) scale(1); } } @media (prefers-reduced-motion: reduce) { .ds-burst, .ds-card { animation-duration: 1ms !important; } } .ds-card { max-width: 400px; padding: 0 22px 20px; color: var(--card-ink, #0e0e10); background: var(--card, #fff); border: 1px solid var(--card-line, #e2e2e6); border-radius: 2px; box-shadow: 0 30px 50px -34px rgb(14 14 16 / 0.45); font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); animation: ds-card-in 420ms cubic-bezier(0.16, 1, 0.3, 1); } @keyframes ds-card-in { from { transform: translateY(10px); } to { transform: none; } } .ds-card p, .ds-card h2, .ds-card ul { margin: 0; padding: 0; } .ds-card ul { list-style: none; } .ds-card-head { margin: 0 -22px; padding: 14px 14px 14px 22px; color: #fff; background: var(--cobalt, #2b35f5); } .ds-card-head h2 { font-family: var(--display, \"Anybody Variable\", \"Arial Black\", sans-serif); font-size: 1.625rem; font-weight: 900; font-stretch: 150%; line-height: 1; letter-spacing: -0.02em; text-transform: uppercase; } .ds-card-cover { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 16px; font-size: 1.0625rem; } .ds-stamp { width: 104px; margin: -4px -4px -8px 0; transform: rotate(-8deg); animation: ds-burst-in 520ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-stamp .ds-burst-word { font-size: 0.71rem; } .ds-card-summary { margin-top: 10px; font-size: 1.0625rem; font-weight: 620; line-height: 1.35; } .ds-rows { margin-top: 16px; border-bottom: 1px solid var(--card-line, #e2e2e6); } .ds-rows li { border-top: 1px solid var(--card-line, #e2e2e6); } .ds-rows button { display: grid; grid-template-columns: 1fr auto 16px; gap: 10px; align-items: center; width: 100%; min-height: 40px; padding: 6px 0; font: inherit; font-size: 0.9375rem; color: var(--card-ink, #0e0e10); text-align: left; background: none; border: 0; cursor: pointer; } .ds-rows button:hover > span:first-child { text-decoration: underline; text-underline-offset: 3px; } .ds-rows button:focus-visible { outline: 2px solid var(--cobalt, #2b35f5); outline-offset: 2px; } .ds-word { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px 1px 6px; font-size: 0.8125rem; font-weight: 720; border-radius: 2px; } .ds-rows .pass .ds-word { color: var(--stamp-pass, #0f5438); } .ds-rows .review .ds-word { color: #fff; background: var(--card-ink, #0e0e10); } .ds-rows .fail .ds-word { color: #fff; background: var(--stamp-fail, #8f1d17); } .ds-card-actions { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 8px; margin: 0 -22px; padding: 14px 22px; background: var(--card, #fff); } .ds-approve, .ds-card-outline { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 9px 18px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-weight: 650; font-size: 0.9375rem; white-space: nowrap; cursor: pointer; border-radius: 2px; transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 120ms ease-out; } .ds-approve { color: #fff; background: var(--cobalt, #2b35f5); border: 1.5px solid var(--cobalt, #2b35f5); } .ds-approve:hover { background: var(--cobalt-deep, #1b23c4); border-color: var(--cobalt-deep, #1b23c4); } .ds-card-outline { color: var(--card-ink, #0e0e10); background: transparent; border: 1.5px solid var(--card-ink, #0e0e10); } .ds-card-outline:hover { color: #fff; background: var(--card-ink, #0e0e10); } .ds-approve:active, .ds-card-outline:active { transform: translateY(1px); } .ds-approve:focus-visible, .ds-card-outline:focus-visible { outline: 2px solid var(--cobalt, #2b35f5); outline-offset: 2px; } .ds-card-foot { margin-top: 6px; font-size: 0.8125rem; line-height: 1.4; color: var(--card-soft, #4d4d57); }"
+    },
+    {
+      "name": "Photo Tile",
+      "kind": "card",
+      "refersTo": "photo-tile",
+      "description": "A borderless 3:4 photo on the neutral mat with a one-line caption and a status word. Hover leans the image in; selection draws an accent outline.",
+      "html": "<button class=\"ds-tile\" aria-pressed=\"true\"><span class=\"ds-tile-photo\"><span class=\"ds-no-photo\">Photo on the mat</span></span><span class=\"ds-tile-cap\"><span><b>NVY-001</b> Front</span><span class=\"ds-status pass\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg> Verified</span></span></button>",
+      "css": ".ds-tile { display: flex; flex-direction: column; width: 220px; padding: 0; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); color: var(--ink, #0e0e10); text-align: left; background: transparent; border: 0; border-radius: 2px; cursor: pointer; } .ds-tile-photo { display: grid; place-items: center; aspect-ratio: 3 / 4; background: var(--mat, #e6e6e4); border-radius: 2px; overflow: hidden; } .ds-no-photo { font-size: 0.8125rem; color: #55585f; transition: transform 700ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-tile:hover .ds-no-photo { transform: scale(1.035); } .ds-tile[aria-pressed=\"true\"] .ds-tile-photo { outline: 3px solid var(--accent, #2b35f5); outline-offset: 4px; } .ds-tile:focus-visible { outline: 2px solid var(--accent, #2b35f5); outline-offset: 6px; } .ds-tile-cap { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 2px 0; font-size: 0.9375rem; } .ds-status { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px 1px 6px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-size: 0.78rem; font-weight: 680; white-space: nowrap; border: 1.5px solid currentColor; border-radius: 2px; } .ds-status.pass { color: var(--pass, #176b49); } .ds-status.check { color: var(--check, #8a5600); } .ds-status.fail { color: var(--fail, #b3261e); } .ds-status.idle { color: var(--muted, #5c5c66); }"
+    },
+    {
+      "name": "Empty State",
+      "kind": "custom",
+      "refersTo": "empty-state",
+      "description": "A cobalt cover burst with a one-word mark, an Anybody headline, one sentence and one next step, on paper-2.",
+      "html": "<div class=\"ds-empty\"><span class=\"ds-burst cobalt ds-empty-burst\"><svg viewBox=\"0 0 100 100\" aria-hidden=\"true\"><polygon points=\"50.00,0.00 57.29,8.64 67.10,3.02 71.00,13.63 82.14,11.70 82.17,23.00 93.30,25.00 89.47,35.64 99.24,41.32 92.00,50.00 99.24,58.68 89.47,64.36 93.30,75.00 82.17,77.00 82.14,88.30 71.00,86.37 67.10,96.98 57.29,91.36 50.00,100.00 42.71,91.36 32.90,96.98 29.00,86.37 17.86,88.30 17.83,77.00 6.70,75.00 10.53,64.36 0.76,58.68 8.00,50.00 0.76,41.32 10.53,35.64 6.70,25.00 17.83,23.00 17.86,11.70 29.00,13.63 32.90,3.02 42.71,8.64\"/></svg><span class=\"ds-burst-word\">Clear</span></span><div class=\"ds-empty-body\"><h2>You're all caught up</h2><p>Photos that FitShot can't verify on its own will appear here for you to approve, retry or reject.</p></div></div>",
+      "css": ".ds-burst { position: relative; display: inline-grid; place-items: center; flex: none; width: 92px; aspect-ratio: 1; --b-fill: var(--card-ink, #0e0e10); --b-ink: #fff; } .ds-burst svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; } .ds-burst polygon { fill: var(--b-fill); } .ds-burst-word { position: relative; max-width: 70%; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); font-size: 0.6875rem; font-weight: 800; line-height: 1.08; letter-spacing: 0.04em; text-align: center; text-transform: uppercase; color: var(--b-ink); } .ds-burst.good { --b-fill: var(--stamp-pass, #0f5438); } .ds-burst.bad { --b-fill: var(--stamp-fail, #8f1d17); } .ds-burst.warn { --b-fill: var(--card-ink, #0e0e10); } .ds-burst.idle { --b-fill: #fff; --b-ink: var(--card-ink, #0e0e10); } .ds-burst.idle polygon { stroke: var(--card-ink, #0e0e10); stroke-width: 2.5; } .ds-burst.cobalt { --b-fill: var(--cobalt, #2b35f5); } @keyframes ds-burst-in { from { transform: rotate(-60deg) scale(0.55); } to { transform: rotate(-8deg) scale(1); } } @media (prefers-reduced-motion: reduce) { .ds-burst, .ds-card { animation-duration: 1ms !important; } } .ds-empty { display: flex; align-items: center; gap: 30px; max-width: 700px; padding: 30px 34px; background: var(--paper-2, #f1f1ef); border-radius: 2px; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); } .ds-empty-burst { width: 112px; transform: rotate(-10deg); } .ds-empty-burst .ds-burst-word { font-size: 0.875rem; } .ds-empty-body { display: grid; gap: 10px; min-width: 0; } .ds-empty h2 { margin: 0; font-family: var(--display, \"Anybody Variable\", \"Arial Black\", sans-serif); font-size: 1.875rem; font-weight: 850; font-stretch: 130%; line-height: 1; letter-spacing: -0.03em; color: var(--ink, #0e0e10); } .ds-empty p { margin: 0; max-width: 52ch; color: var(--muted, #5c5c66); }"
+    },
+    {
+      "name": "Cost Line",
+      "kind": "custom",
+      "refersTo": "cost-figure",
+      "description": "Four tabular figures in a square ruled strip under a 3px ink rule; only the lead figure takes the accent.",
+      "html": "<dl class=\"ds-cost-line\"><div><dt>Cost per accepted photo</dt><dd>$0.004</dd></div><div><dt>Total spent</dt><dd>$0.027</dd></div><div><dt>Accepted photos</dt><dd>6</dd></div><div><dt>Cost per garment</dt><dd>$0.009</dd></div></dl>",
+      "css": ".ds-cost-line { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; font-family: var(--work, \"Bricolage Grotesque Variable\", \"Segoe UI\", system-ui, sans-serif); border-top: 3px solid var(--ink, #0e0e10); border-bottom: 1px solid var(--line, #e0e0e3); } .ds-cost-line > div { padding: 18px 18px 20px 0; } .ds-cost-line > div + div { padding-left: 18px; border-left: 1px solid var(--line, #e0e0e3); } .ds-cost-line dt { font-size: 0.8125rem; font-weight: 650; color: var(--muted, #5c5c66); } .ds-cost-line dd { margin: 8px 0 0; font-family: var(--display, \"Anybody Variable\", \"Arial Black\", sans-serif); font-size: 2.25rem; font-weight: 850; font-stretch: 125%; line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; color: var(--ink, #0e0e10); } .ds-cost-line > div:first-child dd { color: var(--accent, #2b35f5); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lookbook Photo Desk",
+    "overview": "FitShot is a fashion lookbook's photo desk on a 60/30/10 color split: white paper and the neutral photo mat (60%), cobalt (30%) and volt lime (10%), with big photographs first. Pages open on a magazine cover line set in Anybody at extreme width, over a borderless grid of 3:4 photos laid on a neutral grey mat. Every photo carries its inspection, and opening one brings up a white Inspection card with a cobalt masthead and a cover-burst sticker that states the verdict in a word. The system refuses the grey SaaS dashboard where quality checks shrink into a badge; here the check is the second-largest object on the screen after the photo.\n\nThe home page is the Fitting room: a four-step flow (person, garment, AI model, review) under a step bar, ending in a result view that sets the before and after photos side by side beside the Inspection card. The rail leads with the three main sections (Fitting room, Models, Results), then the studio tools.\n\nThe density is editorial rather than tabular: generous 30px row gaps between photos, one cover line per page, hairline rules instead of boxes. Where the work is numeric (shoots list, costs, forms) the desk turns crisp: ruled tables and panels under a 3px ink top rule, tabular figures, square corners. The personality is premium but funky. The funk lives in four places only: the expanded display type, the starburst sticker, the cobalt, and the volt that marks what to press and where you are. Everything a person reads or operates is set calmly in Bricolage Grotesque.\n\nTwo themes share one desk. Light and dark flip only the paper, ink and lines. The cobalt rail, the white Inspection card, the photo mat and the burst tones are physical objects and stay identical in both, so a photo is judged against the same ground whatever the theme. Motion is small and print-like: a sticker slaps on with a spin, the card rises 10px, a photo leans in 3.5% on hover, and all of it collapses under reduced motion.\n\nThe direction contract named the card \"The Edit\"; the build titles it **Inspection**, and the build is the record.",
+    "keyCharacteristics": [
+      "A 60/30/10 split, re-pinned by the user on 2026-11-25: 60% white paper and the neutral mat, 30% cobalt (#2b35f5) on the rail, the Inspection masthead, selected chips and light-theme selection, 10% volt lime (#c8ff2e) on the two committing actions, the current page and the stickers.",
+      "Volt is always a filled shape carrying ink. It is never text or a hairline on white, where it is unreadable.",
+      "Anybody Variable at 125 to 150% width and weight 820 to 900 for covers; Bricolage Grotesque for the work.",
+      "Photos sit only on the neutral mat, paper or paper-2, never tinted.",
+      "Status is always a word with an icon; color only reinforces it.",
+      "2px corners on everything handled; square ruled containers under a 3px ink top rule.",
+      "One lifted object: the Inspection card. Everything else is flat."
+    ],
+    "rules": [
+      {
+        "name": "The 60/30/10 Rule",
+        "body": "Neutral paper and the photo mat carry about 60% of a screen, cobalt about 30% (structure: rail, masthead, selection), volt about 10% (what to press and where you are). No third brand hue is added. Neither hue marks status (Verified stays deep Stamp Green with its word, so volt never reads as \"pass\"), and neither fills a photo ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Volt Is A Fill Rule",
+        "body": "Volt appears only as a filled shape carrying ink, or on cobalt and ink grounds. It is never text, a hairline or an outline on white or the mat, where it falls to about 1.1:1.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Objects Rule",
+        "body": "The rail, the Inspection card, the photo mat and the burst tones are objects, not theme surfaces. Only paper, ink, lines and status inks flip between light and dark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Neutral Mat Rule",
+        "body": "Photos sit only on the mat (#e6e6e4), paper or paper-2, never on cobalt or a status color, and are never tinted, filtered or overlaid. The single exception is a source shot standing in for a photo still being generated: it is ghosted (35% opacity, greyscale) and always carries an in-progress word (Queued, Checking, or the stage flag's \"Dressing the model and checking the photo\").",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Anybody is reserved for covers: mastheads, page titles, section and panel heads, empty-state headlines, the model name and cost figures, always at 125 to 150% width and weight 820 to 900. Everything a person reads closely or operates is Bricolage Grotesque.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uppercase Budget Rule",
+        "body": "Uppercase appears only in the FITSHOT masthead, the INSPECTION card masthead and burst words. Titles, labels, table heads and buttons are sentence case with no added tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Money Rule",
+        "body": "Counts, money and scores use tabular numerals (cost figures, table numbers, chip counts, the review count, measured scores) so columns of figures align.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Lifted Card Rule",
+        "body": "Only the Inspection card casts a shadow. Panels, tiles, tables, chips and buttons are flat; hierarchy among them comes from rules, tone and type, never from elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the 60/30/10 split: neutral paper and mat for most of a screen, cobalt (#2b35f5) for the rail, the Inspection masthead, selected chips, primary hover, progress and light-theme selection, volt (#c8ff2e) for Try it on, Approve photo, the current page, the review count and empty-state bursts.",
+      "Do lay every photo on the mat (#e6e6e4), paper or paper-2 at its true color, with 3:4 tiles in grids.",
+      "Do pair every status with its word: pills, card result chips, burst stickers, shot flags, look tags, the stage flag and table markers all carry text, and pills and result chips add an icon.",
+      "Do keep the provisional-limits disclosure on every Inspection card and on the brand-model face-match note, keep the \"does not predict real size or fit\" line under Try it on, and label the photoshoot comparison as an estimate.",
+      "Do keep volt actions to the two that commit work, Try it on and Approve photo; every other action is ink.",
+      "Do set covers in Anybody at 125 to 150% width and weight 820 to 900, and everything operational in Bricolage Grotesque.",
+      "Do use 2px corners on handled things and square, 3px-ink-topped rules on tables, the cost line, form panels and studio panels.",
+      "Do keep the rail, the Inspection card, the mat and the burst tones identical in light and dark.",
+      "Do collapse every animation and transition to 1ms under prefers-reduced-motion."
+    ],
+    "donts": [
+      "Don't introduce a third brand hue, use cobalt or volt to mean pass, fail or warning, or set volt as text, a hairline or an outline on white.",
+      "Don't place a photo on cobalt or a status color, or tint, filter or overlay a generated photo; only an in-progress source shot may be ghosted.",
+      "Don't signal a status by color alone, or let an unverified photo look verified.",
+      "Don't set Anybody for body, labels or buttons, or uppercase anything beyond the two mastheads and burst words.",
+      "Don't add shadows to anything but the Inspection card.",
+      "Don't round corners past 2px or put the burst to work as decoration without a word in it.",
+      "Don't make the cost figures or the Inspection card change color with the theme."
+    ],
+    "knownDrift": [
+      "The select chevron is an inline SVG stroked with a literal #8a8a95, because a data URI cannot read a token. It reaches about 3:1 on both field grounds.",
+      "In the Fitting room side column the volt Try it on and the volt Approve photo can be on screen together when a look needs a check, so the one committing action is not singular there.",
+      "Small buttons (36px) and compact chips (34px) stay below the 44px used by icon buttons, chips and fields.",
+      "CSS class names still say \"slip\" (for example `.slip`, `.slip-dock`), a leftover from the retired world. The visible masthead and the accessible names say Inspection."
+    ]
+  }
+}
