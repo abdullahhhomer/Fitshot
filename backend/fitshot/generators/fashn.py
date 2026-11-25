@@ -16,6 +16,7 @@ import logging
 import random
 import tempfile
 import threading
+import time
 from pathlib import Path
 
 import cv2
@@ -31,6 +32,7 @@ from .gpu import GPU, release_gpu
 log = logging.getLogger(__name__)
 
 MODEL = "FASHN VTON 1.5"
+LOCAL_RETRY_WAIT = 8
 QUOTA_RECHECK_SECONDS = 3600
 CATEGORY = {"top": "tops", "outerwear": "tops", "bottom": "bottoms", "dress": "one-pieces"}
 CLOTHING_PARTS = {"tops": ("upper", "full"), "bottoms": ("lower", "full"), "one-pieces": ("upper", "lower", "full")}
@@ -187,7 +189,15 @@ class FashnGenerator:
                 raise GenerationError(
                     f"The FASHN service is not running at {settings.fashn_url}. Start run-fashn.cmd.", retryable=True
                 )
-            generated = _local(request, category, kind, seed, steps, guidance)
+            try:
+                generated = _local(request, category, kind, seed, steps, guidance)
+            except GenerationError as exc:
+                if not exc.retryable:
+                    raise
+                # Another model was still letting go of the GPU (ComfyUI frees memory a moment
+                # after it is asked). Give it a few seconds, then try once more.
+                time.sleep(LOCAL_RETRY_WAIT)
+                generated = _local(request, category, kind, seed, steps, guidance)
             image = keep_original_outside_clothing(request.base_shot, generated, category)
             return GenerationResult(image, 0.0, self.name, f"{MODEL} ({kind}) on this PC")
         busy: list[str] = []

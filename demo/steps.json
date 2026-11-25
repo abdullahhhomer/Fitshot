@@ -1,0 +1,152 @@
+[
+  {
+    "n": 1,
+    "file": "01-fitting-room-live.png",
+    "caption": "Fitting room, step 1: choose who wears it. Live uses your own photo, Full body or Half body.",
+    "at": 1.285
+  },
+  {
+    "n": 2,
+    "file": "02-live-photo-added.png",
+    "caption": "Drag in, choose or take a photo. FitShot checks it shows the whole body before accepting it.",
+    "at": 2.989
+  },
+  {
+    "n": 3,
+    "file": "03-garment-step.png",
+    "caption": "Step 2: the garment. Upload one or pick from your catalog.",
+    "at": 6.008
+  },
+  {
+    "n": 4,
+    "file": "04-garment-upload.png",
+    "caption": "Choose the category: upper body, jacket, lower body or dress.",
+    "at": 7.753
+  },
+  {
+    "n": 5,
+    "file": "05-garment-photo-type.png",
+    "caption": "FitShot detects whether the photo is a flat-lay or worn by a model. You can correct it.",
+    "at": 9.696
+  },
+  {
+    "n": 6,
+    "file": "06-ai-model.png",
+    "caption": "Step 3: the AI model. Only models that are installed and checked appear, with what they can dress.",
+    "at": 11.346
+  },
+  {
+    "n": 7,
+    "file": "07-review.png",
+    "caption": "Step 4: review the person, garment, photo type, category, model and its settings.",
+    "at": 13.017
+  },
+  {
+    "n": 8,
+    "file": "08-review-settings.png",
+    "caption": "Each model brings its own settings. FASHN: quality steps and garment guidance.",
+    "at": 14.637
+  },
+  {
+    "n": 9,
+    "file": "09-generating.png",
+    "caption": "Generating on this PC. The progress names the model, and FitShot checks the photo when it is done.",
+    "at": 16.411
+  },
+  {
+    "n": null,
+    "file": null,
+    "caption": "wait-start",
+    "at": 17.321
+  },
+  {
+    "n": null,
+    "file": null,
+    "caption": "wait-end",
+    "at": 239.853
+  },
+  {
+    "n": 10,
+    "file": "10-result.png",
+    "caption": "The result: before and after side by side, with the Inspection card checking garment, face, skin, body and hands.",
+    "at": 242.146
+  },
+  {
+    "n": 11,
+    "file": "11-view-large.png",
+    "caption": "View large: full screen, actual size, open on its own or download.",
+    "at": 243.99
+  },
+  {
+    "n": 12,
+    "file": "12-teach.png",
+    "caption": "Tell FitShot what's wrong in your own words. It learns a check for this garment's future photos.",
+    "at": 246.433
+  },
+  {
+    "n": 13,
+    "file": "13-built-in-people.png",
+    "caption": "Built-in models: your brand's people, each marked full or half body.",
+    "at": 248.197
+  },
+  {
+    "n": 14,
+    "file": "14-built-in-garment.png",
+    "caption": "Pick a garment from the catalog: here the red dress for Aiko.",
+    "at": 249.922
+  },
+  {
+    "n": 15,
+    "file": "15-results.png",
+    "caption": "Results: every try-on is kept, with the person, garment, model and settings it was made with.",
+    "at": 251.739
+  },
+  {
+    "n": 16,
+    "file": "16-models.png",
+    "caption": "Models: the AI models in use, their status, hardware needs and limits.",
+    "at": 253.441
+  },
+  {
+    "n": 17,
+    "file": "17-add-model.png",
+    "caption": "Add model: pick from the supported models, configure or download, and it is checked before use.",
+    "at": 255.082
+  },
+  {
+    "n": 18,
+    "file": "18-remove-model.png",
+    "caption": "Removing asks first, warns about the default, and never deletes shared files.",
+    "at": 257.215
+  },
+  {
+    "n": 19,
+    "file": "19-people.png",
+    "caption": "People: the brand's built-in people and their approved photos.",
+    "at": 260.641
+  },
+  {
+    "n": 20,
+    "file": "20-review-queue.png",
+    "caption": "Review: photos FitShot could not verify on its own wait here for a person.",
+    "at": 264.153
+  },
+  {
+    "n": 21,
+    "file": "21-costs.png",
+    "caption": "Costs: what each accepted photo really cost, retries included.",
+    "at": 267.558
+  },
+  {
+    "n": 22,
+    "file": "22-dark-results.png",
+    "caption": "Dark pages: the same app, photos still on a neutral ground.",
+    "at": 269.317
+  },
+  {
+    "n": 23,
+    "file": "23-phone.png",
+    "caption": "On a phone: the same steps, with Try on, Models, Results, Review and More in the bottom bar.",
+    "at": 272.402
+  }
+]

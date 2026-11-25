@@ -22,3 +22,6 @@ frontend/dist/
 
 # Local tool settings
 .claude/settings.local.json
+
+# Demo working file (the captioned videos are made from it)
+/demo/raw-video/

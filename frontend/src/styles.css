@@ -921,3 +921,6 @@ td a:hover { text-decoration: underline; }
 }
 
 .compare-pair figure { align-content: start; }
+
+/* Grid children may shrink: a sideways-scrolling garment strip must not widen the whole step. */
+.step-panel > *, .garment-step > *, .garment-step section, .live > *, .model-step > * { min-width: 0; }

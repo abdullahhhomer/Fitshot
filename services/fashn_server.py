@@ -111,10 +111,13 @@ def tryon(
                 person_image, garment_image, category=category, garment_photo_type=garment_photo_type,
                 num_timesteps=steps, guidance_scale=guidance, seed=seed,
             ).images[0]
-        except torch.cuda.OutOfMemoryError as exc:
-            # Never leave the GPU full: drop everything so the next call starts clean.
+        except RuntimeError as exc:
+            # torch.cuda.OutOfMemoryError and torch.AcceleratorError ("CUDA error: out of memory")
+            # both mean another model still held the GPU. Drop everything so the next call starts clean.
+            if "out of memory" not in str(exc).lower():
+                raise
             _unload()
-            raise HTTPException(503, "The GPU ran out of memory. Close other GPU programs and try again.") from exc
+            raise HTTPException(503, "The GPU was still busy with another model. FitShot will try again.") from exc
         except (MemoryError, OSError) as exc:
             # Windows error 1455: RAM plus the paging file are full while loading the weights.
             _unload()

@@ -7,12 +7,27 @@ Generating try-on images is now a commodity. FitShot focuses on the next questio
 - **Fitting room:** a four-step flow: person, garment, AI model, review, then the result with its inspection.
 - **Models:** a registry of AI try-on models: add, download, validate, set default, remove.
 - **Results:** every try-on, with the model and settings it was made with.
-- Runs on a Windows PC with an 8 GB NVIDIA GPU, all free: FASHN VTON 1.5 locally, with CatVTON as a fallback.
+- Runs on a Windows PC with an 8 GB NVIDIA GPU, all free: FASHN VTON 1.5 locally, with CatVTON as a second model you can choose.
+
+## Demo
+
+### Walkthrough: a real try-on, end to end
+A screen recording of one full run on this PC: a photo goes in, then the garment, the AI model and the review; FASHN generates the try-on and FitShot inspects it. Click the preview for the full-quality video, [fitshot-walkthrough.mp4](demo/fitshot-walkthrough.mp4) (1:19).
+
+[![FitShot walkthrough: a full try-on, captioned step by step](demo/fitshot-walkthrough.gif)](demo/fitshot-walkthrough.mp4)
+
+### Slideshow: every screen in 23 steps
+The Fitting room, Results, Models, People, Review, Costs, the dark theme and the phone layout. Click for [fitshot-slideshow.mp4](demo/fitshot-slideshow.mp4) (1:47). Every screenshot, with an explanation, is in [demo/README.md](demo/README.md).
+
+[![FitShot slideshow: all 23 steps of the workflow](demo/fitshot-slideshow.gif)](demo/fitshot-slideshow.mp4)
+
+Every person and garment in the demo is synthetic.
 
 ---
 
 ## Contents
 
+- [Demo](#demo)
 - [System architecture](#system-architecture)
 - [The Fitting room flow](#the-fitting-room-flow)
 - [How one try-on is made](#how-one-try-on-is-made)
@@ -362,6 +377,7 @@ FitShot/
 ├── services/                FASHN and CatVTON GPU services
 ├── scripts/                 One-time setup for ComfyUI, CatVTON, FASHN
 ├── benchmark/               FASHN vs CatVTON on the same synthetic inputs
+├── demo/                    The whole flow: 23 screenshots, two videos, the scripts that made them
 ├── samples/                 Synthetic sample garments and a reference face
 ├── run.cmd, start-all.cmd   Launchers (Windows)
 ├── DEPLOY.md                Vercel frontend + this PC as the backend
