@@ -5,6 +5,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PY="$ROOT/catvton/.venv/Scripts/python.exe"
+[ -x "$PY" ] || PY="$ROOT/catvton/.venv/bin/python"   # Linux and Docker
 DIR="$ROOT/fashn"
 COMMIT=7c0f10af3f91ad4048fe9729c470a13ef905d25a   # tested with FitShot on 2026-11-25
 

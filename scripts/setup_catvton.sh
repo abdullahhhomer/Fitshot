@@ -13,6 +13,7 @@ export HF_HUB_DISABLE_XET=1 HF_HUB_DISABLE_PROGRESS_BARS=1
 echo "== Code from the authors' Hugging Face Space"
 [ -d "$CODE/.venv" ] || uv venv --python 3.12 "$CODE/.venv"
 PY="$CODE/.venv/Scripts/python.exe"
+[ -x "$PY" ] || PY="$CODE/.venv/bin/python"   # Linux and Docker
 uv pip install --python "$PY" torch torchvision --index-url https://download.pytorch.org/whl/cu128
 uv pip install --python "$PY" diffusers accelerate transformers huggingface_hub safetensors \
   fastapi "uvicorn[standard]" python-multipart pillow numpy packaging

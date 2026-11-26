@@ -1,0 +1,30 @@
+# Keep the build context small: everything below is either downloaded inside the image,
+# built inside it, or not needed to run FitShot.
+
+# Secrets and local data
+.env
+data/
+models/
+
+# Downloaded by scripts/setup_*.sh during the build
+comfyui/
+catvton/
+fashn/
+
+# Environments and builds
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+frontend/dist/
+
+# Not needed to run the app
+.git/
+.claude/
+.impeccable/
+**/.impeccable/
+demo/
+benchmark/
+samples/
+*.log

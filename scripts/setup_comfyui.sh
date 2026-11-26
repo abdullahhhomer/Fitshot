@@ -46,6 +46,7 @@ clone https://github.com/cubiq/ComfyUI_InstantID.git "$COMFY/custom_nodes/ComfyU
 echo "== Python environment"
 [ -d "$COMFY/.venv" ] || uv venv --python 3.12 "$COMFY/.venv"
 PY="$COMFY/.venv/Scripts/python.exe"
+[ -x "$PY" ] || PY="$COMFY/.venv/bin/python"   # Linux and Docker
 # RTX 50-series GPUs need a CUDA 12.8 or newer PyTorch build.
 uv pip install --python "$PY" torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 uv pip install --python "$PY" -r "$COMFY/requirements.txt"

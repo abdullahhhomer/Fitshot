@@ -404,6 +404,8 @@ FitShot/
 
 Requires Windows, an NVIDIA GPU (8 GB tested), Python 3.12 with [uv](https://docs.astral.sh/uv/), Node 20 or newer and Git Bash.
 
+**With Docker instead:** `docker compose up --build` installs everything, models included, inside one image. See [DOCKER.md](DOCKER.md).
+
 **1. Backend and frontend**
 
 ```powershell

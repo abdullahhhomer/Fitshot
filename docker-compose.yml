@@ -1,0 +1,36 @@
+# FitShot with Docker. See DOCKER.md.
+#   docker compose up --build
+# Then open http://127.0.0.1:8000
+
+services:
+  fitshot:
+    build:
+      context: .
+      args:
+        # 0 skips ComfyUI and its 14 GB of models (only needed to make built-in people's photos).
+        WITH_COMFYUI: "1"
+    image: fitshot:latest
+    # Only this computer can reach it. See DEPLOY.md before exposing it anywhere else.
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DEFAULT_GENERATOR: ${DEFAULT_GENERATOR:-fashn}
+    volumes:
+      - fitshot-data:/app/data
+    # The NVIDIA Container Toolkit must be installed on the host.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    init: true
+    shm_size: "2gb"
+    restart: unless-stopped
+
+volumes:
+  fitshot-data:

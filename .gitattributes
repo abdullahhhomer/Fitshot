@@ -1,0 +1,5 @@
+# Shell scripts run inside Linux containers and Git Bash: always check them out with LF,
+# even on Windows with core.autocrlf=true.
+*.sh text eol=lf
+docker/** text eol=lf
+Dockerfile text eol=lf
